@@ -339,7 +339,7 @@ button {
     background-color: #13a25d;
 }
 
-.carousel-indicators {
+.carousel-indicators { 
     bottom: -120px;
 }
 .carousel-indicators li {
@@ -446,6 +446,46 @@ button {
     background-color: #13a25d;
 }
 
+.about-us {
+    padding: 50px;
+   
+    background-color: #FFF;
+  }
+  
+  @media screen and (max-width: 940px) {
+    .about-us {
+      padding: 30px 10px;
+    }
+  }
+  
+  .about-us .text p {
+    font-weight: 300;
+    font-size: .9rem;
+    font-weight: 400;
+    color: #000;
+    margin-bottom: 10px;
+    line-height: 28px;
+  }
+  
+  .about-us .image img {
+    margin-top: 44px;
+    width: 95%;
+    
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .about-us .image img {
+      margin-top: 0px;
+      width: 100%;
+      
+    }
+  }
+  .text i{
+    padding: 10px;
+    background-color: #13a25d;
+    color: #FFF;
+  }
+  
 /* about section end */
 
 /* services section start */
@@ -936,6 +976,15 @@ textarea#comment::placeholder {
 .subscribe_bt a:hover {
     color: #ffffff;
 }
+.footer-link{
+    color: white;
+    font-weight: bold;
+    margin: 10px 20px;
+}
+.footer-link:hover{
+    color: #13a25d;
+    
+}
 /* footer section end */
 
 
@@ -966,3 +1015,275 @@ textarea#comment::placeholder {
 
 
 /* copyright section end */
+
+/* img-box */
+.info_section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  
+  .info_section .footer_contact {
+    width: 350px;
+  }
+  
+  .info_section .footer_contact .heading_container h2 {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .info_section .footer_contact .box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 35px 20px 0 20px;
+  }
+  
+.info_section .footer_contact .box .img-box .img-2 {
+    display: none;
+  }
+  
+  .info_section .footer_contact .box .img-box:hover .img-1 {
+    display: none;
+  }
+  
+  .info_section .footer_contact .box .img-box:hover .img-2 {
+    display: inline;
+  }
+
+  /* blog Section */
+.blog {
+    background-color: #f7f7f7;
+    padding: 50px;
+  }
+  
+  @media screen and (max-width: 940px) {
+    .blog {
+      padding: 30px 10px;
+    }
+  }
+  
+  .blog .blog-row .blog-col {
+    background-color: #fff;
+    padding: 15px;
+    box-shadow: 0 2px 3px 0 rgba(218, 218, 253, 0.35), 0 0px 3px 0 rgba(206, 206, 238, 0.35);
+    margin-bottom: 30px;
+  }
+  
+  .blog .blog-row .blog-col img {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  .blog .blog-row .blog-col span {
+    color: #a09f9f;
+    font-size: .83rem;
+  }
+  
+  .blog .blog-row .blog-col h4 {
+    margin-top: 15px;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    line-height: 26px;
+  }
+  
+  .blog .blog-row .blog-col p {
+    font-weight: 500;
+    font-size: .93rem;
+    line-height: 25px;
+  }
+  
+
+  /* Careers Section */
+  .career-container{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('../images/careers.png');
+    height: 70vh;
+    background-size: cover;
+    color: white;
+  }
+  .career-container h2{
+    font-size: 3.6rem;
+    color: white;
+  }
+  .career-container p{
+    font-size: 1.8rem;
+    color: white;
+    margin-top: 20px;
+  }
+  .features-area {
+    margin-top: -65px;
+  }
+  
+  .single-feature {
+    text-align: center;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0px 0px 40px 0px rgba(132, 144, 255, 0.2);
+    padding: 25px 0;
+  }
+  
+  .single-feature p {
+    margin-bottom: 0;
+  }
+  
+  .single-feature h4 {
+    padding-bottom: 15px;
+  }
+  
+  @media (max-width: 960px) {
+    .single-feature {
+      margin-bottom: 30px;
+    }
+  }
+
+  .single-fcat {
+    text-align: center;
+    border-radius: 3px;
+    background-color: white;
+    box-shadow: 0px 0px 40px 0px rgba(132, 144, 255, 0.2);
+    padding: 20px 0;
+    border: 1px solid transparent;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+  
+  .single-fcat p {
+    margin-top: 15px;
+    margin-bottom: 0;
+    color: #222;
+  }
+  
+  .single-fcat:hover {
+    border: 1px solid #49e4fa;
+  }
+  .pt-100{
+    padding-top: 100px;
+  }
+  @media (max-width: 960px) {
+    .single-fcat {
+      margin-bottom: 30px;
+    }
+  }
+
+  .career-contact{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('../images/careers.png');
+    height: auto;
+    background-size: cover;
+  }
+
+  .contact-form-wrapper {
+    padding: 100px 0;
+  }
+  
+  .contact-form {
+    padding: 30px 40px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    max-width: 600px;
+  }
+  
+  .contact-form textarea {
+    resize: none;
+  }
+  
+  .contact-form .form-input,
+  .form-text-area {
+    background-color: #1ddf81;
+    height: 50px;
+    padding-left: 16px;
+  }
+  
+  .contact-form .form-text-area {
+    background-color: #1ddf81;
+    height: auto;
+    padding-left: 16px;
+  }
+  
+  .contact-form .form-control::placeholder {
+    color: black;
+    font-weight: 500;
+    opacity: 1;
+  }
+  
+  .contact-form .form-control:-ms-input-placeholder {
+    color: black;
+    font-weight: 500;
+  }
+  
+  .contact-form .form-control::-ms-input-placeholder {
+    color: black;
+    font-weight: 500;
+  }
+  
+  .contact-form .form-control:focus {
+    border-color: #13a25d;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.07), 0 0 8px #13a25d;
+  }
+  
+  .contact-form .title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+  }
+  
+  .contact-form .description {
+    color: black;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .contact-form .submit-button-wrapper {
+    text-align: center;
+  }
+  
+  .contact-form .submit-button-wrapper input {
+    border: none;
+    border-radius: 4px;
+    background-color: #13a25d;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 60px;
+    font-weight: 500;
+    letter-spacing: 2px;
+  }
+  
+  .contact-form .submit-button-wrapper input:hover {
+    background-color: #1ddf81;
+  }
+
+  .fileUpload {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.fileUpload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.btn-primary{
+    color: black!important;
+    background-color: #1ddf81!important;
+    border-color: #1ddf81!important;
+    
+}
+.btn-primary:hover{
+    background-color: #13a25d!important;
+    border-color: #13a25d!important;
+}
+  
