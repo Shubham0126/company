@@ -370,7 +370,19 @@ $(function () {
 
 });
 
+let slideSearch = document.querySelector(".search-bar");
+
+function showBar() {
+	  slideSearch.style.display = "block";
+}
+slideSearch.addEventListener('click', function(){
+	slideSearch.style.display = "block";
+})
+
 	// Upload button
-	document.getElementById("uploadBtn").onchange = function () {
+	document.getElementById("uploadBtn").onclick = function () {
 		document.getElementById("uploadFile").value = this.value;
 	};
+
+
+	
