@@ -1265,6 +1265,22 @@ textarea#comment::placeholder {
     background-color: #1ddf81;
   }
 
+  .mail-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+  }
+  .mail-section p{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+  }
+  .mail-section p a{
+    
+    color: #13a25d;
+  }
+
   .fileUpload {
     position: relative;
     overflow: hidden;
